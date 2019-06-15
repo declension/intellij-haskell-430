@@ -1,0 +1,20 @@
+name:               intellijhaskell430
+version:            0.1
+build-type:         Simple
+cabal-version:      >= 1.10
+
+executable example430
+  main-is:          site.hs
+  hs-source-dirs:   src
+  build-depends:    base >= 4.5
+                  , containers >= 0.5.7.1
+                  , hakyll <= 5.0
+                  , hakyll-sass < 1.0
+                  , pandoc >= 1.19
+                  , mtl >= 1
+                  , filepath >= 1.4
+                  , time >= 1.8
+                  , time-locale-compat >= 0.1
+                  , text
+  ghc-options:      -threaded -j +RTS -A128m -n2m -RTS
+  default-language: Haskell2010
