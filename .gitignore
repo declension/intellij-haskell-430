@@ -1,0 +1,15 @@
+
+.stack-work/
+cabal.project.local
+cabal.config
+
+.idea
+*.iml
+
+_cache
+_site
+lib/
+
+.sass-cache
+out/
+
